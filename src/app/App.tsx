@@ -449,7 +449,7 @@ function Hero() {
       </div>
 
       {/* Content */}
-      <div ref={textRef} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12 w-full">
+      <div ref={textRef} className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-12 w-full pt-20 md:pt-0">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
